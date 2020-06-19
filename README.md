@@ -18,7 +18,7 @@ copy the XDR.conf file to the pipelines folder in Logstash and restart service.
 
 upload the index template to your cluster as follows:
 
-curl -XPUT http://<your-elasticsearch-server>:9200/_template/xdr?pretty -H 'Content-Type: application/json' -d @xdr_template_mapping-v3.json
+> curl -XPUT http://<your-elasticsearch-server>:9200/_template/xdr?pretty -H 'Content-Type: application/json' -d @xdr_template_mapping-v3.json
     
 * Kibana:
 
