@@ -1,0 +1,169 @@
+{
+    "template" : "xdr*",
+    "version" : 3,
+    "settings" : {
+      "index.refresh_interval" : "5s"
+    },
+    "mappings" : {
+          "properties" : {
+            "@timestamp" : {
+              "type" : "date"
+            },
+            "@version" : {
+              "type" : "byte"
+            },
+            "type" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            },
+            "shost" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            },
+            "user" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            },
+            "deviceFacility" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            },
+            "cat" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            },
+            "alertMessage": {
+              "type" : "keyword",
+              "ignore_above" : 256
+            },
+            "external_id": {
+              "type" : "keyword",
+              "ignore_above" : 256
+            },
+            "url": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs1label": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs1": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs2label": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs2": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs3": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs3label": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs4label": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs4": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs5label": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs5": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs6": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "cs6label": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "app": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "targetSignature": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "tenantName": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "tenantCDL_id": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "CSPAccount": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "action": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "filehash": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "filepath": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "processName": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "targetprocesssignature": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "targetprocesssha256": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "registrydata": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "registryfullkey": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "src" : { 
+                  "type" : "ip" 
+                },
+                "dst" : { 
+                  "type" : "ip" 
+                },
+                "dest_port" : { 
+                  "type" : "integer" 
+                },
+                "src_port" : { 
+                  "type" : "integer" 
+                },
+                "targetprocesscmd": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                },
+                "title": {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+          }
+      }
+    }
