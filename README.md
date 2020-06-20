@@ -10,6 +10,8 @@ The following versions are tested and works wiht this configurations, otherwise 
 
 This installation guide assume you already have ELK setup and cortex XDR logs ready for the pipeline.
 
+To learn how to setup logstash as syslog receiver in XDR go here: https://docs.paloaltonetworks.com/cortex/cortex-xdr/cortex-xdr-pro-admin/logs/integrate-a-syslog-receiver-for-outbound-notifications.html
+
 * Logstash: 
 
 copy the XDR.conf file to the pipelines folder in Logstash and restart service.
