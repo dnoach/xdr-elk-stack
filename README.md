@@ -30,3 +30,4 @@ Finally,
 
 Create your dashboards based on the new XDR documents in your cluster.
 
+!(visuals\\dashboard.png)
