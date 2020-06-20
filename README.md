@@ -1,6 +1,6 @@
 # xdr-elk-stack
 
-The motivation behing this little project came after I was looking for similar configuration to parse Palo Alto firewall logs with the elastic stack. I found numerous of these configs, but ultimately the one who really worked well for me was from Shadow-Box in the following link: https://github.com/shadow-box/Palo-Alto-Networks-ELK-Stack
+The motivation behind this little project came after I was looking for similar configuration to parse Palo Alto firewall logs with the elastic stack. I found numerous of these configs, but ultimately the one who really worked well for me was from Shadow-Box in the following link: https://github.com/shadow-box/Palo-Alto-Networks-ELK-Stack
 
 However then I also looked into ingesting other data sources, especially Cortex XDR (also Palo Alto product). I learned the logs format and adapted similar configuration here.
 
