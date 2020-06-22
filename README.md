@@ -4,7 +4,7 @@ The motivation behind this little project came after I was looking for similar c
 
 However then I also looked into ingesting other data sources, especially Cortex XDR (also Palo Alto product). I learned the logs format and adapted similar configuration here.
 
-The following versions are tested and works wiht this configurations, otherwise you might have to adjust for the added/missing fields. 
+The following versions are tested and works with this configurations, otherwise you might have to adjust for the added/missing fields. 
 
 * Cortex XDR 2.4, Elasticsearch 7.4
 
