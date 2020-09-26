@@ -30,4 +30,4 @@ Finally,
 
 Create your dashboards based on the new XDR documents in your cluster.
 
-![xdr dashboard in Kibana](https://github.com/dnoach/xdr-elk-stack/blob/master/visuals/dashboard.png)
+![xdr dashboard in Kibana](https://github.com/dnoach/xdr-elk-stack/blob/master/dashboard.png)
